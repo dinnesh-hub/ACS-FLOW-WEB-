@@ -838,9 +838,9 @@
 
 
                     <!-- 9. Merchant 3DS Client -> ACS -->
-                    <path id="path-9" d="M 322,190 C 500,170 835,170 835,300" stroke="#3f51b5" stroke-width="4"
-                        class="flow-path" fill="none" />
-                    <polygon id="arrow-9" points="835,303 827,290 843,290" fill="#3f51b5" />
+                    <path id="path-9" d="M 322,170 L 835,300" stroke="#3f51b5" stroke-width="4" class="flow-path"
+                        fill="none" />
+                    <polygon id="arrow-9" points="835,300 823,290 820,304" fill="#3f51b5" />
 
 
 
@@ -1023,7 +1023,7 @@
                     8</div>
                 <!-- 9 Label -->
                 <div id="label-9" class="path-label"
-                    style="left:620px; top:184px; background:#f5f5f5; border-color:#cfd8dc; font-size:10px; width:18px; height:18px; display:flex; align-items:center; justify-content:center; border-radius:50%">
+                    style="left:550px; top:228px; background:#f5f5f5; border-color:#cfd8dc; font-size:10px; width:18px; height:18px; display:flex; align-items:center; justify-content:center; border-radius:50%">
                     9</div>
 
 
@@ -1200,8 +1200,9 @@
                 </div>
                 <div id="step-17" class="legend-item"><strong>17. DS → ACS</strong>The Directory Server (DS) then
                     forwards the RRes back to the ACS .</div>
-                <div id="step-18" class="legend-item"><strong>18. ACS → Merchant 3DS Client</strong>Final authentication
-                    result (CRes) sent to client.</div>
+                <div id="step-18" class="legend-item"><strong>18. ACS → Merchant 3DS Client</strong>Final Challenge
+                    Response (CRes) sent to client. If payment is successful Merchant 3DS Client will show a SUCCESS
+                    page or else FAILED page.</div>
 
             </div>
 
